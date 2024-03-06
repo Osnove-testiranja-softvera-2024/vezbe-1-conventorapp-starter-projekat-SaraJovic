@@ -10,11 +10,25 @@ using System.Windows.Forms;
 
 namespace OTS2023_ConventorApp
 {
-    public partial class Form1 : Form
+    public partial class btnTest : Form
     {
-        public Form1()
+        public btnTest()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)//convert
+        {
+            if(btnMass.Checked)
+            {
+                string txt = txtLabel1.Text;
+            }
+           
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace OTS2023_ConventorApp
 {
-    partial class Form1
+    partial class btnTest
     {
         /// <summary>
         /// Required designer variable.
@@ -28,13 +28,108 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.button1 = new System.Windows.Forms.Button();
+            this.btnMass = new System.Windows.Forms.RadioButton();
+            this.btnLength = new System.Windows.Forms.RadioButton();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtLabel2 = new System.Windows.Forms.TextBox();
+            this.txtLabel1 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(348, 357);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Convert";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // btnMass
+            // 
+            this.btnMass.AutoSize = true;
+            this.btnMass.Location = new System.Drawing.Point(171, 34);
+            this.btnMass.Name = "btnMass";
+            this.btnMass.Size = new System.Drawing.Size(50, 17);
+            this.btnMass.TabIndex = 1;
+            this.btnMass.TabStop = true;
+            this.btnMass.Text = "Mass";
+            this.btnMass.UseVisualStyleBackColor = true;
+            // 
+            // btnLength
+            // 
+            this.btnLength.AutoSize = true;
+            this.btnLength.Location = new System.Drawing.Point(171, 74);
+            this.btnLength.Name = "btnLength";
+            this.btnLength.Size = new System.Drawing.Size(58, 17);
+            this.btnLength.TabIndex = 2;
+            this.btnLength.TabStop = true;
+            this.btnLength.Text = "Length";
+            this.btnLength.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(171, 194);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "label1";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // txtLabel2
+            // 
+            this.txtLabel2.Location = new System.Drawing.Point(240, 235);
+            this.txtLabel2.Name = "txtLabel2";
+            this.txtLabel2.Size = new System.Drawing.Size(100, 20);
+            this.txtLabel2.TabIndex = 4;
+            // 
+            // txtLabel1
+            // 
+            this.txtLabel1.Location = new System.Drawing.Point(240, 194);
+            this.txtLabel1.Name = "txtLabel1";
+            this.txtLabel1.Size = new System.Drawing.Size(100, 20);
+            this.txtLabel1.TabIndex = 5;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(168, 242);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(35, 13);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "label2";
+            // 
+            // btnTest
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.txtLabel1);
+            this.Controls.Add(this.txtLabel2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.btnLength);
+            this.Controls.Add(this.btnMass);
+            this.Controls.Add(this.button1);
+            this.Name = "btnTest";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.RadioButton btnMass;
+        private System.Windows.Forms.RadioButton btnLength;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtLabel2;
+        private System.Windows.Forms.TextBox txtLabel1;
+        private System.Windows.Forms.Label label2;
     }
 }
 
